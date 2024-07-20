@@ -1,0 +1,322 @@
+/* .M_contain{
+    position: relative;
+} */
+
+
+.Announcement_bar{
+    Height:43.800px;
+    background: #113a63;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Announcement p {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #FFFF;
+    font-family: sans-serif;
+}
+
+.Content_section {
+    height:127px;
+    background: white;
+    border-bottom: 1px solid black;
+    padding: 18px 50px 24px 50px;
+    
+}
+
+.content1{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo{
+    background-image: url("Carat.jpg");
+    width:150px;
+    height:45px;
+    margin-left: 540px;
+}
+
+.icons {
+    margin-left: 350px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons i{
+    margin-right: 10px;
+}
+
+.M_ul a  {
+color: inherit;
+text-decoration: none;
+}
+
+.content2 {
+    margin-top: 10px;
+}
+
+.Slideshow {
+    background-image: url("Cartier.jpg");
+    background-size: cover;
+    height:518px;
+}
+
+.Items_container {
+    height:803px;
+    background-color: White;
+    Padding: 80px;
+}
+
+.Items_container h2 {
+    font-family: sans-serif;
+    color:#454545;
+    width: 1359.2px;
+    height:23.1px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.h2 {
+    font-family: sans-serif;
+    color:#454545;
+    width: 1359.2px;
+    height:23.1px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.Items{
+    height: 377px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.box {
+    height: 376px;
+    width:275px;
+
+}
+
+.box-img{
+    background-image: url("watches.jpg");
+    background-size: cover;
+    height: 275px;
+    width: 275px;
+}
+
+.box-img:hover {
+    background-image: url("watch4.jpg");
+    background-size: cover;
+    transition: transform 1s ease-in;
+    transform: scale(1.1);
+}
+
+.items_about {
+    width:275px;
+    height: 82px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box-img2{
+    background-image: url("watch_2.jpg");
+    background-size: cover;
+    height: 275px;
+    width: 275px;
+}
+
+.items_about2 {
+    width:275px;
+    height: 82px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box-img3{
+    background-image: url("watch3.jpg");
+    background-size: cover;
+    height: 275px;
+    width: 275px;
+}
+
+.items_about3 {
+    width:275px;
+    height: 82px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box-img4{
+    background-image: url("watch4.jpg");
+    background-size: cover;
+    height: 275px;
+    width: 275px;
+}
+
+.items_about4 {
+    width:275px;
+    height: 82px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Items_container p {
+    font-size: 13px;
+}
+
+.SHOP_now {
+    width: 126px;
+    height: 44px;
+    background-color: #31456c;
+    display: block;
+    margin:0 auto;
+    color: #FFFFFF;   
+}
+
+.feature_text{
+    width: 1520px;
+    height: 113.85px;
+    padding: 80px;
+}
+
+.section_header  {
+    width:430px;
+    height: 119px;
+    margin: 0 auto;
+}
+
+.section_header h2 {
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+.collection {
+    height:630px;
+    width: 1520px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.collec1 {
+    background-image: url("watch4.jpg");
+    background-size: cover;
+    width:467px;
+    height: 600px;
+    transition: all 1s ease-out;
+}
+
+.collec1:hover {
+    transform: scale(1.1);
+}
+
+.collec2 {
+    background-image: url("watch4.jpg");
+    background-size: cover;
+    width:467px;
+    height: 600px;
+    transition: all 1s ease-out;
+}
+
+.collec2:hover {
+    transform: scale(1.1);
+}
+
+.collec3 {
+    background-image: url("watch4.jpg");
+    background-size: cover;
+    width:467px;
+    height: 600px;
+    transition: all 1s ease-out;
+}
+
+.collec3:hover {
+    transform: scale(1.1);
+}
+
+.feature_items {
+    height: 507px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.feature_text1 {
+    width: 760px;
+    height: 507px;
+    padding: 50px 100px 50px 50px;
+    text-align: left;
+}
+
+.feature_img {
+    width: 760px;
+    height: 490px;
+    background-image: url("feature_image.jpg");
+    background-size: cover;
+}
+
+.Items_jewelry {
+    height: 600px;
+}
+
+.items_jewel {
+    height: 398px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.item1_jewel {
+    width:275px;
+    height:376px;
+    text-align: center;
+}
+
+footer {
+    height: 661px;
+    padding: 75px 0px 42px 0px;
+    border-top: 0.80px solid orange;
+}
+
+.footer_container {
+    height: 400px;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block1 {
+    width: 138.19px;
+    height: 458.35px;
+    padding: 0 20px;
+}
+
+.block2 {
+    width: 148px;
+}
+
+.foot_list  {
+    list-style-type: none;
+    padding: 3px;
+    margin-bottom: 30px;
+}
+
+.foot_list li {
+    margin-bottom: 10px;
+}
+
+.social_icons i {
+    margin: 0 10px;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+}
